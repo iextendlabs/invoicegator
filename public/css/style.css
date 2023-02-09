@@ -1,0 +1,40 @@
+body{
+    background-color:#fff !important;
+}
+
+.subTitle{
+    /* text-shadow: 2px 2px #ff0000; */
+    font-size: 33px;
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+/* alert styling */
+
+.messageAlert{
+    width: 100%;
+}
+
+.bi-person-square{
+    font-size: 26px;
+}
+
+/* login form styling */
+.border-style{
+    width: 130px;
+    border-right: 4px solid rgb(54, 161, 54);
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+/* Hide pagination (buttons '< , >')client side  */
+body > div > div:nth-child(3) > div > nav > div.hidden.sm\:flex-1.sm\:flex.sm\:items-center.sm\:justify-between > div:nth-child(2){
+    display: none !important;
+}
+
+/* Hide pagination (buttons '< , >')developer side  */
+body > div > div.row.mt-3 > div > nav > div.hidden.sm\:flex-1.sm\:flex.sm\:items-center.sm\:justify-between > div:nth-child(2){
+    display: none;
+}
